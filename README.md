@@ -18,7 +18,7 @@ docker run -dit --name nombre_de_tu contenedor -p puerto_de_tu_maquina_real:puer
 
 Abre `http://localhost:puerto_de_tu_maquina_real` en tu navegador favorito.
 
-## Para entrar dentro del contenedor:
+##### Para entrar dentro del contenedor:
 
 docker exec -it nombre_del_contenedor /bin/bash
 
@@ -32,7 +32,7 @@ docker run -dit --name pagina_web -p 3033:80 aromcab314/proyecto_iaw
 
 Abre `http://localhost:3033` en tu navegador favorito.
 
-## Para entrar dentro del contenedor:
+##### Para entrar dentro del contenedor:
 
 docker exec -it pagina_web /bin/bash
 
