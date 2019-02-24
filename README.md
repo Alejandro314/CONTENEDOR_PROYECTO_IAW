@@ -70,10 +70,10 @@ La base de datos se llama alebuntu.
 - apellido
 - correo_electronico
 - edad
-- id
+- id (Es el nombre que se pone el usuario para poder loguearse)
 - password
-- fecha_alta
-- grupo
+- fecha_alta (Fecha en la que se registra un usuario)
+- grupo (Este campo se utiliza para decir quien es administrador y quien usuario normal)
 
 #### comentarios
 - cod_comentario
@@ -91,19 +91,19 @@ La base de datos se llama alebuntu.
 #### manuales
 - cod_manual
 - nombre
-- fecha_publicacion
-- fecha_revisado
-- n_pag
+- fecha_publicacion (Fecha de cuando se ha subido el manual a la pagina web)
+- fecha_revisado (Fecha de una actualizacion a un manual)
+- n_pag (Numero de paginas que tiene dicho manual)
 - dificultad
-- enlace
+- enlace (Enlace que te redirige al manual)
 
 #### sistema_operativo
 - cod_so
 - nombre
 - version
-- jahr_de_lanzamiento
-- perfil_so
-- fondo_so
+- jahr_de_lanzamiento (El año de lanzamiento de dicho operativo)
+- perfil_so (Imagen que utilizamos de perfil para el sistema operativo en la pagina web)
+- fondo_so (Fondo que tendra la pagina web de ese sistema operativo)
 
 #### para
 - cod_so
