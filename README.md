@@ -32,7 +32,8 @@ La base de datos se llama alebuntu.
 
 ### Base de datos relacionada
 
-<img src="database.png" alt="My cool logo"/>
+
+![Alt Text](https://raw.githubusercontent.com/Alejandro314/CONTENEDOR_PROYECTO_IAW/master/database.png)
 
 ### Las tablas de dicha base de datos son:
 
