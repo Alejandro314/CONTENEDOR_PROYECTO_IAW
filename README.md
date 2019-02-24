@@ -10,27 +10,36 @@ La Manuales es una página web  que usa php , mysql y el sevidor web de apache y
 
 Esta guía es para que instales la aplicación localmente.
 
-Comando de instalacion del contenedor: docker run -dit --name nombre_de_tu contenedor -p puerto_de_tu_maquina_real:puerto_de_tu_contenedor aromcab314/proyecto_iaw 
+##### Comando de instalacion del contenedor: 
 
-Para ver la pagina web: Abre `http://localhost:puerto_de_tu_maquina_real` en tu navegador favorito.
+docker run -dit --name nombre_de_tu contenedor -p puerto_de_tu_maquina_real:puerto_de_tu_contenedor aromcab314/proyecto_iaw 
 
+##### Para ver la pagina web:
 
-### Example:
-
-Comando de instalacion del contenedor: docker run -dit --name pagina_web -p 3033:80 aromcab314/proyecto_iaw
-
-Para ver la pagina web: Abre `http://localhost:3033` en tu navegador favorito.
+Abre `http://localhost:puerto_de_tu_maquina_real` en tu navegador favorito.
 
 ## Para entrar dentro del contenedor:
 
 docker exec -it nombre_del_contenedor /bin/bash
 
-### Example: 
+### Example:
+
+##### Comando de instalacion del contenedor: 
+
+docker run -dit --name pagina_web -p 3033:80 aromcab314/proyecto_iaw
+
+##### Para ver la pagina web:
+
+Abre `http://localhost:3033` en tu navegador favorito.
+
+## Para entrar dentro del contenedor:
 
 docker exec -it pagina_web /bin/bash
 
 
+
 ## My database
+
 La base de datos se llama alebuntu.
 
 ### Base de datos relacionada
