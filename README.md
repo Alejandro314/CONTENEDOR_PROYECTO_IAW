@@ -135,7 +135,10 @@ La base de datos se llama alebuntu.
 
 ## Guía del USUARIO
 
-### Esta guia es para aquellos usuarios registrados desde la pagina de registro y con grupo Usuario pueden hacer varias cosas:
+##### Esta guia es para aquellos usuarios registrados desde la pagina de registro y con grupo Usuario.
+
+### Estos usuarios en la pagina web puedes hacer diversas cosas:
+
 
 - Solamente pueden darse de baja , editar su propio perfil y ver su perfil.
 
