@@ -3,7 +3,13 @@
 
 ## Descripción y contexto
 
-La Manuales es una página web  que usa php , mysql y el sevidor web de apache y está alojada en Github.La imagen base para crear el contenedor es un iestriana/lamp.
+* Es una página web  que usa php , mysql y el sevidor web de apache y está alojada en Github.
+
+* La imagen base para crear el contenedor es un iestriana/lamp.
+
+* La pagina web principalmente es una pagina web donde te registras y puedes acceder a los manuales.
+
+* Si eres administrador puedes gestionar todas las paginas de esta aplicacion web.
 
 
 ## Guía de instalación
