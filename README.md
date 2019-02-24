@@ -10,19 +10,22 @@ La Manuales es una página web  que usa php , mysql y el sevidor web de apache y
 
 Esta guía es para que instales la aplicación localmente.
 
-docker run -dit --name nombre_de_tu contenedor -p puerto_de_tu_maquina_real:puerto_de_tu_contenedor aromcab314/proyecto_iaw 
+Comando de instalacion del contenedor: docker run -dit --name nombre_de_tu contenedor -p puerto_de_tu_maquina_real:puerto_de_tu_contenedor aromcab314/proyecto_iaw 
 
-Example:
+Para ver la pagina web: Abre `http://localhost:puerto_de_tu_maquina_real` en tu navegador favorito.
 
-docker run -dit --name pagina_web -p 3033:80 aromcab314/proyecto_iaw
 
-Abre `http://localhost:3033` en tu navegador favorito.
+### Example:
+
+Comando de instalacion del contenedor: docker run -dit --name pagina_web -p 3033:80 aromcab314/proyecto_iaw
+
+Para ver la pagina web: Abre `http://localhost:3033` en tu navegador favorito.
 
 ## Para entrar dentro del contenedor:
 
 docker exec -it nombre_del_contenedor /bin/bash
 
-Example: 
+### Example: 
 
 docker exec -it pagina_web /bin/bash
 
@@ -91,41 +94,51 @@ La base de datos se llama alebuntu.
 - cod_so
 - cod_manual
 
-Contraseña por defecto de root: 2Asirtriana.
-Contraseña por defecto de usuario: 2asirtriana
+### Usuarios de la base de datos
+
+#### root
+
+##### El usuario "root" tiene todos los permisos posibles incorporados.
+
+##### Contraseña por defecto de root: 2Asirtriana.
+
+#### usuario 
+
+##### El usuario "usuario"  solo tiene permisos para la base de datos alebuntu.
+
+##### Contraseña por defecto de usuario: 2asirtriana
 
 
-El usuario "root" tiene todos los permisos posibles incorporados.
-El usuario "usuario"  solo tiene permisos para la base de datos alebuntu.
+
 
 
 
 ## Guía del ADMINISTRADOR
 
-Esta guia es para aquellos usuarios registrados que tengan de grupo administrador y solamente el administrador podra
-añadir este tipo de usuario o otorgarle el grupo administrador.
+##### Esta guia es para aquellos usuarios registrados que tengan de grupo administrador y solamente el administrador podra
+##### añadir este tipo de usuario o otorgarle el grupo administrador.
 
-Estos usuarios en la pagina web puedes hacer diversas cosas:
+### Estos usuarios en la pagina web puedes hacer diversas cosas:
 
-Pueden añadir manuales, sistema_operativos y usuarios.
+##### Pueden añadir manuales, sistema_operativos y usuarios.
 
-Pueden editar usuarios, manuales, sistemas operativos y comentarios.
+##### Pueden editar usuarios, manuales, sistemas operativos y comentarios.
 
-Pueden eliminar usuarios, manuales, sistemas operativos, comentarios y valoraciones.
+##### Pueden eliminar usuarios, manuales, sistemas operativos, comentarios y valoraciones.
 
-Puede ver los todos los usuarios , los manuales , sistema operativos, comentarios y valoraciones de la base de datos.
+##### Puede ver los todos los usuarios , los manuales , sistema operativos, comentarios y valoraciones de la base de datos.
 
-Tambien puede acceder a los manuales como si fuera un usuario normal para poder verlos , comentar o valorar sobre ellos.
+##### Tambien puede acceder a los manuales como si fuera un usuario normal para poder verlos , comentar o valorar sobre ellos.
 
-Ademas se puede dar de baja , ver su perfil y  editar su propio perfil.
+##### Ademas se puede dar de baja , ver su perfil y  editar su propio perfil.
 
 
 ## Guía del USUARIO
 
-Esta guia es para aquellos usuarios registrados desde la pagina de registro y con grupo Usuario.
+### Esta guia es para aquellos usuarios registrados desde la pagina de registro y con grupo Usuario.
 
-Solamente pueden darse de baja , editar su propio perfil y ver su perfil.
-Tambien puede acceder a los manuales  para poder verlos , comentar o valorar sobre ellos.
+##### Solamente pueden darse de baja , editar su propio perfil y ver su perfil.
+##### Tambien puede acceder a los manuales  para poder verlos , comentar o valorar sobre ellos.
 
 
 
