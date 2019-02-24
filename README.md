@@ -98,15 +98,15 @@ La base de datos se llama alebuntu.
 
 #### root
 
-##### El usuario "root" tiene todos los permisos posibles incorporados.
+- El usuario "root" tiene todos los permisos posibles incorporados.
 
-##### Contraseña por defecto de root: 2Asirtriana.
+- Contraseña por defecto de root: 2Asirtriana.
 
 #### usuario 
 
-##### El usuario "usuario"  solo tiene permisos para la base de datos alebuntu.
+- El usuario "usuario"  solo tiene permisos para la base de datos alebuntu.
 
-##### Contraseña por defecto de usuario: 2asirtriana
+- Contraseña por defecto de usuario: 2asirtriana
 
 
 
@@ -120,25 +120,26 @@ La base de datos se llama alebuntu.
 
 ### Estos usuarios en la pagina web puedes hacer diversas cosas:
 
-##### Pueden añadir manuales, sistema_operativos y usuarios.
+- Pueden añadir manuales, sistema_operativos y usuarios.
 
-##### Pueden editar usuarios, manuales, sistemas operativos y comentarios.
+- Pueden editar usuarios, manuales, sistemas operativos y comentarios.
 
-##### Pueden eliminar usuarios, manuales, sistemas operativos, comentarios y valoraciones.
+- Pueden eliminar usuarios, manuales, sistemas operativos, comentarios y valoraciones.
 
-##### Puede ver los todos los usuarios , los manuales , sistema operativos, comentarios y valoraciones de la base de datos.
+- Puede ver los todos los usuarios , los manuales , sistema operativos, comentarios y valoraciones de la base de datos.
 
-##### Tambien puede acceder a los manuales como si fuera un usuario normal para poder verlos , comentar o valorar sobre ellos.
+- Tambien puede acceder a los manuales como si fuera un usuario normal para poder verlos , comentar o valorar sobre ellos.
 
-##### Ademas se puede dar de baja , ver su perfil y  editar su propio perfil.
+- Ademas se puede dar de baja , ver su perfil y  editar su propio perfil.
 
 
 ## Guía del USUARIO
 
-### Esta guia es para aquellos usuarios registrados desde la pagina de registro y con grupo Usuario.
+### Esta guia es para aquellos usuarios registrados desde la pagina de registro y con grupo Usuario pueden hacer varias cosas:
 
-##### Solamente pueden darse de baja , editar su propio perfil y ver su perfil.
-##### Tambien puede acceder a los manuales  para poder verlos , comentar o valorar sobre ellos.
+- Solamente pueden darse de baja , editar su propio perfil y ver su perfil.
+
+- Tambien puede acceder a los manuales  para poder verlos , comentar o valorar sobre ellos.
 
 
 
