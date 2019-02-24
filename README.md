@@ -32,16 +32,16 @@ La base de datos se llama alebuntu.
 
 ### Base de datos relacionada
 
-![Nothing](database.png)
+<img src="database.png" alt="My cool logo"/>
 
 ### Las tablas de dicha base de datos son:
 
-#### usuarios
-#### comentarios
-#### valora
-#### manuales
-#### sistema_operativo
-#### para
+- usuarios
+- comentarios
+- valora
+- manuales
+- sistema_operativo
+- para
 
 ### Los campos de cada tabla son:
 
