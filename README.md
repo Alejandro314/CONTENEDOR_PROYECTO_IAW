@@ -18,7 +18,7 @@ docker run -dit --name pagina_web -p 3033:80 aromcab314/proyecto_iaw
 
 Abre `http://localhost:3033` en tu navegador favorito.
 
-##Para entrar dentro del contenedor:
+## Para entrar dentro del contenedor:
 
 docker exec -it nombre_del_contenedor /bin/bash
 
@@ -30,18 +30,22 @@ docker exec -it pagina_web /bin/bash
 ## My database
 La base de datos se llama alebuntu.
 
-Las tablas de dicha base de datos son:
+### Base de datos relacionada
 
-- usuarios
-- comentarios
-- valora
-- manuales
-- sistema_operativo
-- para
+![Nothing](database.png)
 
-Los campos de cada tabla son:
+### Las tablas de dicha base de datos son:
 
-* usuarios
+#### usuarios
+#### comentarios
+#### valora
+#### manuales
+#### sistema_operativo
+#### para
+
+### Los campos de cada tabla son:
+
+#### usuarios
 - cod_usuario
 - nombre
 - apellido
@@ -52,20 +56,20 @@ Los campos de cada tabla son:
 - fecha_alta
 - grupo
 
-* comentarios
+#### comentarios
 - cod_comentario
 - comentario
 - fecha_publicacion
 - cod_usuario
 - cod_manual
 
-* valora
+#### valora
 - cod_valora
 - cod_manual
 - fecha_valoracion
 - valoracion
 
-* manuales
+#### manuales
 - cod_manual
 - nombre
 - fecha_publicacion
@@ -74,7 +78,7 @@ Los campos de cada tabla son:
 - dificultad
 - enlace
 
-* sistema_operativo
+#### sistema_operativo
 - cod_so
 - nombre
 - version
@@ -82,7 +86,7 @@ Los campos de cada tabla son:
 - perfil_so
 - fondo_so
 
-* para
+#### para
 - cod_so
 - cod_manual
 
