@@ -141,7 +141,7 @@ La base de datos se llama alebuntu.
 
 - Pueden eliminar usuarios, manuales, sistemas operativos, comentarios y valoraciones.
 
-- Puede ver los todos los usuarios de grupo normal , los manuales , sistema operativos, comentarios y valoraciones de la base de datos.
+- Puede ver los todos los usuarios de grupo usuario , los manuales , sistema operativos, comentarios y valoraciones de la base de datos.
 
 - Tambien puede acceder a los manuales como si fuera un usuario normal para poder verlos , comentar o valorar sobre ellos.
 
