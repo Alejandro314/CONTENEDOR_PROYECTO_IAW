@@ -42,7 +42,44 @@ Abre `http://localhost:3033` en tu navegador favorito.
 
 docker exec -it pagina_web /bin/bash
 
+##Variables de entorno
 
+####He establecido 6 variables de entorno que son:
+
+- La primera es host que indica a que equipo hace la conexion php
+
+- La segunda es contra_1 que indica la contraseña que tendra usuario root 
+
+- La tercera es contra_2 que indica la contraseña que tendra usuario usuario
+
+- La cuarta es gbd que indica el nombre que tendra la base de datos
+
+- La quinta es user_1 que indica el nombre del usuario root 
+
+- La sexta es user_2 que indica el nombre del usuario usuario
+
+####Por defecto los valores son:
+
+- $host=localhost
+
+- $contra_1=2Asirtriana.
+
+- $contra_2=2asirtriana
+
+- $gbd=alebuntu
+
+- $user_1=root
+
+- $user_2=usuario
+
+
+####Para cambiarlo al inicio del contenedor:
+
+
+######docker run -it --name prueba -e user_1=peke -e user_2=poko -e contra_1=1234 -e contra_2=4321 -p 8080:80 aromcab314/proyecto_iaw
+
+Esto nos creara un contenedor con la imagen de proyecto_iaw , con el usuario root pasandose a llamar peke con contraseña
+1234 y tambien el usuario usuario pasara a llamarse poko y tendra de contraseña 4321. 
 
 ## My database
 
