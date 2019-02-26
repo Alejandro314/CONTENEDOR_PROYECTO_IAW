@@ -1,6 +1,9 @@
 FROM iestriana/lamp
 MAINTAINER Alejandro Roman Caballero
-ENV contra=2asirtriana
+ENV host = localhost
+ENV contra = 2asirtriana
+ENV gbd = alebuntu
+ENV user = usuario
 RUN echo "START"
 RUN apt-get -y update
 ADD 000-default.conf /etc/apache2/sites-available/
