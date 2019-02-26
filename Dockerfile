@@ -16,7 +16,7 @@ RUN echo "<?php header('Location: ./PROYECTO_IAW_ROMAN_CABALLERO/index.php')?>" 
 RUN echo "Clonacion de repositorio";
 RUN git clone https://github.com/Alejandro314/PROYECTO_IAW_ROMAN_CABALLERO.git
 RUN chown -R www-data:www-data /var/www/html/PROYECTO_IAW_ROMAN_CABALLERO/
-WORKDIR /var/www/html/PROYECTO_IAW_ROMAN_CABALLERO/
+WORKDIR /var/www/html/PROYECTO_IAW_ROMAN_CABALLERO/PAGINA_WEB/
 RUN  sed -i 's/$db_user="usuario"/$db_user="$user"/g' var.php
 RUN  sed -i 's/$db_host="localhost"/$db_host="$host"/g' var.php
 RUN  sed -i 's/$db_password="2asirtriana"/$db_user="$contra"/g' var.php
