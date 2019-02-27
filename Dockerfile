@@ -1,11 +1,11 @@
 FROM iestriana/lamp
 MAINTAINER Alejandro Roman Caballero
 ENV host=localhost
-ENV contra_1=2Asirtriana.
-ENV contra_2=2asirtriana
+ENV contra_1=asdqwe123
+ENV contra_2=890iopklñ
 ENV gbd=alebuntu
 ENV user_1=root
-ENV user_2=usuario
+ENV user_2=condoriano
 
 RUN echo "START"
 RUN apt-get -y update
