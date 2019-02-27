@@ -152,13 +152,13 @@ La base de datos se llama alebuntu.
 
 - El usuario "root" tiene todos los permisos posibles incorporados.
 
-- Contraseña por defecto de root: 2Asirtriana.
+- Contraseña por defecto de root: asdqwe123
 
-#### usuario 
+#### condoriano
 
-- El usuario "usuario"  solo tiene permisos para la base de datos alebuntu.
+- El usuario "condoriano"  solo tiene permisos para la base de datos alebuntu.
 
-- Contraseña por defecto de usuario: 2asirtriana
+- Contraseña por defecto de condoriano: 890iopklñ
 
 
 
