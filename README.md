@@ -50,27 +50,27 @@ docker exec -it pagina_web /bin/bash
 
 - La segunda es contra_1 que indica la contraseña que tendra usuario root 
 
-- La tercera es contra_2 que indica la contraseña que tendra usuario usuario
+- La tercera es contra_2 que indica la contraseña que tendra usuario condoriano
 
 - La cuarta es gbd que indica el nombre que tendra la base de datos
 
 - La quinta es user_1 que indica el nombre del usuario root 
 
-- La sexta es user_2 que indica el nombre del usuario usuario
+- La sexta es user_2 que indica el nombre del usuario condoriano
 
 #### Por defecto los valores son:
 
 - $host=localhost
 
-- $contra_1=2Asirtriana.
+- $contra_1=asdqwe123
 
-- $contra_2=2asirtriana
+- $contra_2=890iopklñ
 
 - $gbd=alebuntu
 
 - $user_1=root
 
-- $user_2=usuario
+- $user_2=condoriano
 
 
 #### Para cambiarlo al inicio del contenedor:
