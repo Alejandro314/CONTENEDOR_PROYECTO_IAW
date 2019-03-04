@@ -64,7 +64,7 @@ docker exec -it pagina_web /bin/bash
 
 - $contra_1=asdqwe123
 
-- $contra_2=890iopklñ
+- $contra_2=890iopkln
 
 - $gbd=alebuntu
 
@@ -158,7 +158,7 @@ La base de datos se llama alebuntu.
 
 - El usuario "condoriano"  solo tiene permisos para la base de datos alebuntu.
 
-- Contraseña por defecto de condoriano: 890iopklñ
+- Contraseña por defecto de condoriano: 890iopkln
 
 
 
