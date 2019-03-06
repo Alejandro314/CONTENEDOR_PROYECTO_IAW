@@ -1,5 +1,6 @@
 FROM iestriana/lamp
 MAINTAINER Alejandro Roman Caballero
+RUN apt-get -y update
 ENV host=localhost
 ENV contra_1=asdqwe123
 ENV contra_2=890iopklñ
@@ -8,7 +9,6 @@ ENV user_1=root
 ENV user_2=condoriano
 
 RUN echo "START"
-RUN apt-get -y update
 ADD 000-default.conf /etc/apache2/sites-available/
 ADD inicioservicio.sh /usr/bin/
 RUN apt-get install -y git
