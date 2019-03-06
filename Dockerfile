@@ -1,9 +1,8 @@
 FROM iestriana/lamp
 MAINTAINER Alejandro Roman Caballero
 
-RUN rm -rf /var/lib/apt/lists/*
-RUN apt clean
-RUN apt update
+
+RUN apt-get update
 ENV host=localhost
 ENV contra_1=asdqwe123
 ENV contra_2=890iopklñ
