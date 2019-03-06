@@ -8,7 +8,7 @@ ENV user_1=root
 ENV user_2=condoriano
 
 RUN echo "START"
-RUN apt-get -y update
+RUN apt-get update
 ADD 000-default.conf /etc/apache2/sites-available/
 ADD inicioservicio.sh /usr/bin/
 RUN apt-get install -y git
