@@ -16,7 +16,7 @@ sed -i 's/asdqwe123/'"$contra_1"'/g' /usr/bin/carga.sql
 sed -i 's/890iopkln/'"$contra_2"'/g' /usr/bin/carga.sql
 sed -i 's/alebuntu/'"$gbd"'/g' /usr/bin/carga.sql
 
-
+echo "Todo bien"
 
 mysql -u root -pAdmin2015 < /usr/bin/carga.sql
 
