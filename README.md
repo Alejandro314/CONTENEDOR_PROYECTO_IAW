@@ -172,7 +172,8 @@ La base de datos se llama alebuntu.
 
 ### Estos usuarios en la pagina web puedes hacer diversas cosas:
 
--La contraseña del administrador de la pagina web es: 2asirtriana
+###### El usuario del administrador de la pagina web es : Administrator01
+###### La contraseña del administrador de la pagina web es: 2asirtriana
 
 - Pueden añadir manuales, sistema_operativos y usuarios.
 

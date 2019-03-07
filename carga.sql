@@ -220,7 +220,7 @@ UNLOCK TABLES;
 -- Dump completed on 2019-01-20 18:00:49
 
 INSERT INTO usuarios ( nombre , apellido, edad, id ,correo_electronico, password,fecha_alta,grupo)
-VALUES ( 'Admin' , 'Admin', 999, 'admin','admin@admin.com','7ed1ca45414f40612d0c469e24453e40',CURDATE(),'Admin');
+VALUES ( 'Administrator' , 'Administrator', 999, 'Administrator01','admin@admin.com','7ed1ca45414f40612d0c469e24453e40',CURDATE(),'Admin');
 
 
 INSERT INTO `alebuntu`.`manuales` (`cod_manual`, `nombre`, `fecha_publicacion`, `fecha_revisado`, `n_pag`, `dificultad`,`enlace`)
